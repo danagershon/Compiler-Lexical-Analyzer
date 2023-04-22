@@ -1,0 +1,5 @@
+1 INT int
+1 B b
+1 ASSIGN =
+1 NUM 3
+1 SC ;

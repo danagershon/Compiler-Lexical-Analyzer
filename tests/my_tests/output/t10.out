@@ -1,0 +1,59 @@
+1 VOID void
+2 INT int
+3 BYTE byte
+4 B b
+5 NUM 18
+5 B b
+6 ID b18
+7 BOOL bool
+8 OVERRIDE override
+9 AND and
+10 OR or
+11 NOT not
+12 TRUE true
+13 FALSE false
+14 RETURN return
+15 IF if
+16 ELSE else
+17 WHILE while
+18 BREAK break
+19 CONTINUE continue
+20 SC ;
+21 COMMA ,
+22 LPAREN (
+22 RPAREN )
+23 LBRACE {
+23 RBRACE }
+24 ASSIGN =
+25 RELOP ==
+26 RELOP !=
+27 RELOP >
+27 RELOP <
+28 RELOP >=
+29 RELOP <=
+30 BINOP +
+30 BINOP -
+30 BINOP *
+30 BINOP /
+31 COMMENT //
+32 COMMENT //
+33 ID x
+34 ID max
+35 ID OO7
+36 NUM 12
+36 ID AB
+37 NUM 42
+38 NUM 0
+39 NUM 102
+40 NUM 0
+40 NUM 50
+41 BINOP -
+41 NUM 10
+42 STRING simple
+43 STRING also 'simple'
+44 STRING escape new lines
+
+45 STRING hex 
+46 STRING hex2 
+47 STRING hex2 :
+48 STRING hi	how	are	you
