@@ -101,8 +101,8 @@ b                  {return B; }
 <IN_STRING>\"      { /* string end */
                     BEGIN(INITIAL);
                     *str_buf_ptr = '\0'; /* terminate string */
-                    STR_BUF = (char*)malloc((MAX_STR_LEN+1)*sizeof(char));
-                    strcpy(STR_BUF,string_buf);
+                    STR_BUF = (char*)malloc(strlen(string_buf)+1);
+                    strncpy(STR_BUF,string_buf,strlen(string_buf)+1);
                     return STRING; }
 
 {WHITESPACE}       {}

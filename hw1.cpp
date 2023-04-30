@@ -1,7 +1,9 @@
 #include "tokens.hpp"
 #include <iostream>
 
-void printToken(const std::string &token_name, const char* token_text = yytext,int lineno = yylineno){\
+void printToken(const std::string &token_name, const char* token_text = yytext,int lineno = yylineno);
+
+void printToken(const std::string &token_name, const char* token_text = yytext,int lineno = yylineno){
     std::cout << lineno << " " << token_name << " " << token_text << "\n";
 }
 
