@@ -1,4 +1,4 @@
-Theory of Compilation HW1 Spring 23
+Theory of Compilation HW1
 Building Lexical Analyzer with Flex
 
 **Files in this project:**
