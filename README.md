@@ -1,5 +1,6 @@
-Theory of Compilation HW1
-Building Lexical Analyzer with Flex
+# Compiler Lexical Analyzer
+
+Theory of Compilation HW1: Building Lexical Analyzer with Flex
 
 **Files in this project:**
 
